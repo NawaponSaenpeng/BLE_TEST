@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ea285e3391d3544b94a3dfef1d240c, type: 3}
+  m_Name: Music2
+  m_EditorClassIdentifier: 
+  songName: Dance Electro
+  image: {fileID: 0}
+  song: {fileID: 8300000, guid: 6df74b7e415b0004cbe399d58899fdcc, type: 3}
+  Easy:
+  - {fileID: 1963153502432437372, guid: 4be77b268032efd4ca464aa1e6670f6d, type: 3}
+  - {fileID: -8769508917791894663, guid: 8bdfb95368d20c24596b25e53a8b881a, type: 3}
+  Normal:
+  - {fileID: 7412480153171805221, guid: 6960e8a4bfd8bf547a8165a14f67da87, type: 3}
+  - {fileID: 4018553699821181044, guid: 9c85e30a61b205e448e4b20842b87f5e, type: 3}
+  Hard:
+  - {fileID: 7089558162724531002, guid: 71749da77309c3f4eb3a2c661cd260a1, type: 3}
+  - {fileID: 7936502025542175988, guid: 2c76915f9d519784097c8ad5e16a2642, type: 3}
+  Event:
+  - {fileID: 9017009745824447844, guid: 303101709c3c941428f9602898ede421, type: 3}
+  - {fileID: 8725365031948808650, guid: dbd0ca682ce3fe749b63809747e0f498, type: 3}
+  delay: 4
+  timerEasy: 95
+  timerNormal: 50
+  timerHard: 41
+  easySpeed: 240
+  normalSpeed: 480
+  hardSpeed: 600
+  eventSpeed: 480
+  targetScore: 600

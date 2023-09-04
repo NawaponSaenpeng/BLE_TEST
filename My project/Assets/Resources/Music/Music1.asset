@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ea285e3391d3544b94a3dfef1d240c, type: 3}
+  m_Name: Music1
+  m_EditorClassIdentifier: 
+  songName: Disco Funk
+  image: {fileID: 21300000, guid: 949c0c3c685fec14482a1df148a64404, type: 3}
+  song: {fileID: 8300000, guid: cc2e06e78c2f00f40b3bd5f4f7ee1b96, type: 3}
+  Easy:
+  - {fileID: -4224427041127809441, guid: 045676bcbbcff4c49a44cd0292656187, type: 3}
+  - {fileID: 2284440587942002750, guid: 676b2bd9ccab0cf46a15302ac90f0ecc, type: 3}
+  Normal:
+  - {fileID: 7291980544181255801, guid: 0e4cd38213579f64dbb421e518a342e7, type: 3}
+  - {fileID: 7227958547081126471, guid: 9d5119c5f1066964286bc1c44150c411, type: 3}
+  Hard:
+  - {fileID: 6806239082017449173, guid: 101143b93fae6f444b421c8ad2eec60a, type: 3}
+  - {fileID: 9023878490970211694, guid: 1879caf4943730f4ab09a18e91ed375d, type: 3}
+  Event:
+  - {fileID: 9017009745824447844, guid: 303101709c3c941428f9602898ede421, type: 3}
+  - {fileID: 8725365031948808650, guid: dbd0ca682ce3fe749b63809747e0f498, type: 3}
+  delay: 4
+  timerEasy: 97
+  timerNormal: 50
+  timerHard: 40
+  easySpeed: 240
+  normalSpeed: 480
+  hardSpeed: 600
+  eventSpeed: 480
+  targetScore: 500

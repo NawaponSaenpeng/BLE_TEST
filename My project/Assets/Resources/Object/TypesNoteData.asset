@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b1cb60de025c1b49b09c0e2a8a8a530, type: 3}
+  m_Name: TypesNoteData
+  m_EditorClassIdentifier: 
+  defaultSprite: {fileID: 21300000, guid: ad1ce5c38951f604e86120178bb0eebd, type: 3}
+  OneTap: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  sp1: {fileID: 21300000, guid: a9f624d23329e7b4ea812879dcc04f89, type: 3}
+  sp2: {fileID: 21300000, guid: ed43f05ca285eac4595ccd69ba6704b4, type: 3}
+  xTap: {fileID: 21300000, guid: 8aac9383527e8b0428af3f2a76395d98, type: 3}
+  multiTap: {fileID: 21300000, guid: f836afaf4bd3118499ea7bad5ec8c570, type: 3}
+  unlock1: {fileID: 21300000, guid: 4b5846a58d3321249a6b597336ba9f53, type: 3}
+  lock2: {fileID: 21300000, guid: 7a9ac8ac19456b640b57dcdb1c73d4b8, type: 3}
+  unlock2: {fileID: 21300000, guid: fa6fda5fd2ae02541b0f29a631f3f84f, type: 3}
+  lock3: {fileID: 21300000, guid: 6b87599d5f42287408a1bea4c0678d7c, type: 3}
+  unlock3: {fileID: 21300000, guid: e6b5d7876d7deb843a2bbfd866e1282f, type: 3}

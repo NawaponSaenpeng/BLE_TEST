@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pad
+  - Notes
+  - Destroy
+  - FadeDetetor
+  - NotesDown
+  - NotesUp
+  - ButtonUp
+  - ButtonDown
+  - DoubleTapNoteUp
+  - DonotTapUp
+  - MutiTapUp
+  - MutiTapDown
+  - SubNote1Down
+  - SubNote2Down
+  - SubNote3Down
+  - SubNote1Up
+  - SubNote2Up
+  - SubNote3Up
+  - Lock1Up
+  - Lock2Up
+  - Lock3Up
+  - Lock1Down
+  - Lock2Down
+  - Lock3Down
+  - DoubleTapNoteDown
+  - DonotTapDown
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - neon
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
