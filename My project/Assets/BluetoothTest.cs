@@ -39,7 +39,7 @@ public class BluetoothTest : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         if (IsConnected) {
             try
@@ -56,7 +56,7 @@ public class BluetoothTest : MonoBehaviour
             }
         }
         
-    }
+    }*/
 
     public void GetDevicesButton()
     {

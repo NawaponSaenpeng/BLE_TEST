@@ -59,38 +59,26 @@ public class MainArduino : MonoBehaviour
                 string datain =  BluetoothService.ReadFromBluetooth();
                 if (datain == "1")
                 {
-                    dataRecived = datain;
-                    BluetoothService.Toast(dataRecived);
                     playButtonsUp.Invoke(1);
                 }
                 if (datain == "2")
                 {
-                    dataRecived = datain;
-                    BluetoothService.Toast(dataRecived);
                     playButtonsUp.Invoke(2);
                 }
                 if (datain == "3")
                 {
-                    dataRecived = datain;
-                    BluetoothService.Toast(dataRecived);
                     playButtonsUp.Invoke(3);
                 }
                 if (datain == "4")
                 {
-                    dataRecived = datain;
-                    BluetoothService.Toast(dataRecived);
                     playButtonsDown.Invoke(4);
                 }
                 if (datain == "5")
                 {
-                    dataRecived = datain;
-                    BluetoothService.Toast(dataRecived);
                     playButtonsDown.Invoke(5);
                 }
                 if (datain == "6")
                 {
-                    dataRecived = datain;
-                    BluetoothService.Toast(dataRecived);
                     playButtonsDown.Invoke(6);
                 }
 
