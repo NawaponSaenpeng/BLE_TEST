@@ -45,10 +45,10 @@ public class BluetoothTest : MonoBehaviour
             try
             {
                string datain =  BluetoothService.ReadFromBluetooth();
-                if (datain.Length > 1)
+                if (datain.Length > 0)
                 {
                     dataRecived = datain;
-                    print(dataRecived);
+                    BluetoothService.Toast(dataRecived);
                 }
 
             }
@@ -74,8 +74,10 @@ public class BluetoothTest : MonoBehaviour
     {
         if (!IsConnected)
         {
-            IsConnected =  BluetoothService.StartBluetoothConnection(deviceName.text.ToString());
-            BluetoothService.Toast(deviceName.text.ToString()+" status: " + IsConnected);
+            //IsConnected =  BluetoothService.StartBluetoothConnection(deviceName.text.ToString());
+            //BluetoothService.Toast(deviceName.text.ToString()+" status: " + IsConnected);
+            IsConnected =  BluetoothService.StartBluetoothConnection("ESP32-TEST");
+            BluetoothService.Toast("ESP32-TEST"+" status: " + IsConnected);
         }
     }
 
