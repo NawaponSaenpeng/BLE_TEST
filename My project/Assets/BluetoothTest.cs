@@ -45,11 +45,9 @@ public class BluetoothTest : MonoBehaviour
             try
             {
                string datain =  BluetoothService.ReadFromBluetooth();
-                if (datain.Length > 0)
-                {
-                    dataRecived = datain;
-                    BluetoothService.Toast(dataRecived);
-                }
+               dataRecived = datain;
+               BluetoothService.Toast(dataRecived);
+                
 
             }
             catch (Exception e)
