@@ -11,7 +11,6 @@ public class MainArduino : MonoBehaviour
     public Action<int> playButtonsDown;
     public List<UpAreaClick> buttonUpTest;
     public List<DownAreaClick> buttonDownTest;
-    private bool IsConnected;
     public static string dataRecived = "";
 
     private void Start()
@@ -32,8 +31,7 @@ public class MainArduino : MonoBehaviour
                     });
         #endif
         #endif
-
-        IsConnected = false;
+        
         BluetoothService.CreateBluetoothObject();
         playButtonsUp += FindButtonsPlay;
         playButtonsDown += FindButtonsPlay2;
@@ -55,7 +53,7 @@ public class MainArduino : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsConnected) {
+        if (BluetoothTest.IsConnected) {
             try
             {
                 string datain =  BluetoothService.ReadFromBluetooth();

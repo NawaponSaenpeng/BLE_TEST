@@ -11,7 +11,7 @@ public class BluetoothTest : MonoBehaviour
 {
     public Text deviceName;
     public Text dataToSend;
-    private bool IsConnected;
+    public static bool IsConnected;
     public static string dataRecived = "";
     // Start is called before the first frame update
     void Start()
