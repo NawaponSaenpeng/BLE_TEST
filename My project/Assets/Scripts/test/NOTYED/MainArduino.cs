@@ -61,23 +61,23 @@ public class MainArduino : MonoBehaviour
                 {
                     playButtonsUp.Invoke(1);
                 }
-                if (datain == "2")
+                else if (datain == "2")
                 {
                     playButtonsUp.Invoke(2);
                 }
-                if (datain == "3")
+                else if (datain == "3")
                 {
                     playButtonsUp.Invoke(3);
                 }
-                if (datain == "4")
+                else if (datain == "4")
                 {
                     playButtonsDown.Invoke(4);
                 }
-                if (datain == "5")
+                else if (datain == "5")
                 {
                     playButtonsDown.Invoke(5);
                 }
-                if (datain == "6")
+                else if (datain == "6")
                 {
                     playButtonsDown.Invoke(6);
                 }

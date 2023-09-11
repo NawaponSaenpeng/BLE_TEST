@@ -82,7 +82,7 @@ public class BluetoothTest : MonoBehaviour
     public void SendButton()
     {
         if (IsConnected && (dataToSend.ToString() != "" || dataToSend.ToString() != null))
-            BluetoothService.WritetoBluetooth(dataToSend.text.ToString());
+            BluetoothService.WritetoBluetooth("connect");
         else
             BluetoothService.WritetoBluetooth("Not connected");
     }
