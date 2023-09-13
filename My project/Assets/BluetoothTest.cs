@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class BluetoothTest : MonoBehaviour
 {
-    public static bool IsConnected;
+    public static bool isConnected;
     public static string dataRecived = "";
     // Start is called before the first frame update
     void Start()
@@ -30,8 +30,6 @@ public class BluetoothTest : MonoBehaviour
                     });
         #endif
     #endif
-        
-        IsConnected = false;
         BluetoothService.CreateBluetoothObject();
        
     }
@@ -68,18 +66,18 @@ public class BluetoothTest : MonoBehaviour
 
     public void StartButton()
     {
-        if (!IsConnected)
+        if (!isConnected)
         {
             //IsConnected =  BluetoothService.StartBluetoothConnection(deviceName.text.ToString());
             //BluetoothService.Toast(deviceName.text.ToString()+" status: " + IsConnected);
-            IsConnected =  BluetoothService.StartBluetoothConnection("ESP32-TEST");
-            BluetoothService.Toast("ESP32-TEST"+" status: " + IsConnected);
+            isConnected =  BluetoothService.StartBluetoothConnection("ESP32-TEST");
+            BluetoothService.Toast("ESP32-TEST"+" status: " + isConnected);
         }
     }
 
     public void SendButton()
     {
-        if (IsConnected)
+        if (isConnected)
         {
             BluetoothService.WritetoBluetooth("connect");
         }else {
@@ -91,7 +89,7 @@ public class BluetoothTest : MonoBehaviour
 
     public void StopButton()
     {
-        if (IsConnected)
+        if (isConnected)
         {
             BluetoothService.StopBluetoothConnection();
         }

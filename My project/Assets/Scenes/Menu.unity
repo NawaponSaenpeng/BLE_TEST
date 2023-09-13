@@ -962,7 +962,7 @@ GameObject:
   - component: {fileID: 163947025}
   - component: {fileID: 163947024}
   m_Layer: 5
-  m_Name: NameStartStopPan
+  m_Name: BLEconnect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -981,6 +981,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2129512996}
+  - {fileID: 696513481}
   m_Father: {fileID: 1741071341607619235}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5785,17 +5786,17 @@ RectTransform:
   m_GameObject: {fileID: 696513480}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8906515, y: 1.8906515, z: 1.8906515}
+  m_LocalScale: {x: 0.22827354, y: 0.22827354, z: 0.22827354}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1477129254}
-  m_Father: {fileID: 6222522652497463701}
-  m_RootOrder: 2
+  m_Father: {fileID: 163947023}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3312.9575, y: -2063}
-  m_SizeDelta: {x: 400, y: 200}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &696513482
 MonoBehaviour:
@@ -11097,8 +11098,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e21f710a969cd2b48a87d8f1bb106961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deviceName: {fileID: 0}
-  dataToSend: {fileID: 0}
 --- !u!4 &1311522879
 Transform:
   m_ObjectHideFlags: 0
@@ -27756,7 +27755,6 @@ RectTransform:
   m_Children:
   - {fileID: 1741071341607619235}
   - {fileID: 7339378642873100519}
-  - {fileID: 696513481}
   m_Father: {fileID: 5267980170851491205}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

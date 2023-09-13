@@ -53,7 +53,7 @@ public class MainArduino : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (BluetoothTest.IsConnected) {
+        if (BluetoothTest.isConnected) {
             try
             {
                 string datain =  BluetoothService.ReadFromBluetooth();
