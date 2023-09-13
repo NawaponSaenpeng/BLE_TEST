@@ -6,11 +6,21 @@ public class GameManager : MonoBehaviour
 {
     public GameObject gameObject;
     public GameObject bleControll;
-    
+    private static GameManager instance;
     private void Start()
     {
         ServerApi.InitAquaristaAPI();
-        DontDestroyOnLoad(gameObject);
-        DontDestroyOnLoad(bleControll);
+        if (instance != null)
+        {
+            Debug.Log("Destroy");
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(bleControll);
+        }
+        
     }
 }

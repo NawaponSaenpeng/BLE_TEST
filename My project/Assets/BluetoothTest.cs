@@ -9,8 +9,6 @@ using UnityEngine.UI;
 
 public class BluetoothTest : MonoBehaviour
 {
-    public Text deviceName;
-    public Text dataToSend;
     public static bool IsConnected;
     public static string dataRecived = "";
     // Start is called before the first frame update
@@ -32,7 +30,7 @@ public class BluetoothTest : MonoBehaviour
                     });
         #endif
     #endif
-
+        
         IsConnected = false;
         BluetoothService.CreateBluetoothObject();
        
@@ -81,10 +79,13 @@ public class BluetoothTest : MonoBehaviour
 
     public void SendButton()
     {
-        if (IsConnected && (dataToSend.ToString() != "" || dataToSend.ToString() != null))
+        if (IsConnected)
+        {
             BluetoothService.WritetoBluetooth("connect");
-        else
+        }else {
             BluetoothService.WritetoBluetooth("Not connected");
+        }
+            
     }
 
 
