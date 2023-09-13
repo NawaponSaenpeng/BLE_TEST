@@ -201,6 +201,10 @@ public class SetObject : MonoBehaviour
         musicStorage.SetActive(true);
     }
 
+    public void Bluetooth()
+    {
+        
+    }
     public void Setting()
     {
         settingPopUp.SetActive(true);

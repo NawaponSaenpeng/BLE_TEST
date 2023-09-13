@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             DontDestroyOnLoad(bleControll);
+            Debug.Log("Load");
         }
         
     }
