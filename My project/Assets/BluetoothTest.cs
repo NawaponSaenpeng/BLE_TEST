@@ -37,7 +37,7 @@ public class BluetoothTest : MonoBehaviour
     // Update is called once per frame
     /*void Update()
     {
-        if (IsConnected) {
+        if (isConnected) {
             try
             {
                string datain =  BluetoothService.ReadFromBluetooth();

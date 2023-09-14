@@ -17,6 +17,7 @@ public class SetObject : MonoBehaviour
     public GameObject helpPopUp;
     public GameObject settingPopUp;
     public GameObject storagePopUp;
+    public GameObject blueToothPopUp;
 
     [Header("MENU SCENE")]
     public GameObject proflie;
@@ -203,7 +204,12 @@ public class SetObject : MonoBehaviour
 
     public void Bluetooth()
     {
-        
+        blueToothPopUp.SetActive(true);
+    }
+
+    public void QuitBluetooth()
+    {
+        blueToothPopUp.SetActive(false);
     }
     public void Setting()
     {
