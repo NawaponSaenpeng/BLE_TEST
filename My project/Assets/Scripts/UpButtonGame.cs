@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class UpButtonGame : MonoBehaviour
 {
-
+    public int checkId;
     private SpriteRenderer theSR;
     [Header ("NOTE OBJECT DISPLAY")]
     public GameObject Square;
@@ -162,6 +162,13 @@ public class UpButtonGame : MonoBehaviour
             hit = true;
             CheckNoteInTypes();
             subNote1 = true;
+            if (BluetoothTest.isConnected)
+            {
+                if (checkId == 1)
+                {
+                    BluetoothService.WritetoBluetooth("1");
+                }
+            }
             Square.transform.localScale = new Vector3(0.35f, 0.35f, 1f);
             obj = other.gameObject;
             objs.Add(obj);
@@ -241,11 +248,25 @@ public class UpButtonGame : MonoBehaviour
                     if (other.gameObject.tag == "SubNote2Up")
                     {
                         subNote2 = true;
+                        if (BluetoothTest.isConnected)
+                        {
+                            if (checkId == 1)
+                            {
+                                BluetoothService.WritetoBluetooth("2");
+                            }
+                        }
                         Square.transform.localScale = new Vector3(0.65f, 0.65f, 1f);
                     }
                     else if (other.gameObject.tag == "SubNote3Up")
                     {
                         subNote3 = true;
+                        if (BluetoothTest.isConnected)
+                        {
+                            if (checkId == 1)
+                            {
+                                BluetoothService.WritetoBluetooth("3");
+                            }
+                        }
                         spiteRenderer.sprite = GameControl.instance.types.OneTap;
                         Square.transform.localScale = new Vector3(4.5f, 4.5f, 1f);
                     }

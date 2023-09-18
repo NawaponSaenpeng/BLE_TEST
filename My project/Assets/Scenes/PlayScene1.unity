@@ -880,6 +880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04d68e35ffa99c349ace981d1daccd97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkId: 0
   Square: {fileID: 166084504}
   spiteRenderer: {fileID: 166084506}
   noteType: 0
@@ -6664,6 +6665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04d68e35ffa99c349ace981d1daccd97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkId: 0
   Square: {fileID: 718166535}
   spiteRenderer: {fileID: 718166537}
   noteType: 0
@@ -7625,6 +7627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f1b61a701eaf54486f1627f292932b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkId: 2
   Square: {fileID: 642710665}
   spiteRenderer: {fileID: 642710666}
   noteType: 0
@@ -7866,6 +7869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f1b61a701eaf54486f1627f292932b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkId: 1
   Square: {fileID: 933541053}
   spiteRenderer: {fileID: 933541054}
   noteType: 0
@@ -8310,6 +8314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f1b61a701eaf54486f1627f292932b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkId: 3
   Square: {fileID: 1971478702}
   spiteRenderer: {fileID: 1971478703}
   noteType: 0
@@ -13761,6 +13766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04d68e35ffa99c349ace981d1daccd97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkId: 0
   Square: {fileID: 810188451}
   spiteRenderer: {fileID: 810188453}
   noteType: 0
