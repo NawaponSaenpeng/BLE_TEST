@@ -444,6 +444,10 @@ public class UpButtonGame : MonoBehaviour
                 if (other.gameObject.tag == "SubNote1Up")
                 {
                     subNote1 = false;
+                    if (checkId == 1)
+                    {
+                        BluetoothService.WritetoBluetooth("4");
+                    }
 
                     spiteRenderer.sprite = GameControl.instance.types.defaultSprite;
                     Square.transform.localScale = new Vector3(0.65f, 0.65f, 1f);
@@ -452,12 +456,20 @@ public class UpButtonGame : MonoBehaviour
                 else if (other.gameObject.tag == "SubNote2Up")
                 {
                     subNote2 = false;
+                    if (checkId == 1)
+                    {
+                        BluetoothService.WritetoBluetooth("5");
+                    }
 
                     Square.transform.localScale = new Vector3(0.35f, 0.35f, 1f);
                 }
                 else if (other.gameObject.tag == "SubNote3Up")
                 {
                     subNote3 = false;
+                    if (checkId == 1)
+                    {
+                        BluetoothService.WritetoBluetooth("6");
+                    }
 
                     Square.transform.localScale = new Vector3(0f, 0f, 1f);
                 }
