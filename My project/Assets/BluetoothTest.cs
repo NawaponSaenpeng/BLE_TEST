@@ -68,10 +68,9 @@ public class BluetoothTest : MonoBehaviour
     {
         if (!isConnected)
         {
-            //IsConnected =  BluetoothService.StartBluetoothConnection(deviceName.text.ToString());
-            //BluetoothService.Toast(deviceName.text.ToString()+" status: " + IsConnected);
             isConnected =  BluetoothService.StartBluetoothConnection("ESP32-TEST");
             BluetoothService.Toast("ESP32-TEST"+" status: " + isConnected);
+            BluetoothService.WritetoBluetooth(isConnected ? "connect" : "Not connected");
         }
     }
 
