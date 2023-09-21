@@ -91,7 +91,7 @@ public class BluetoothTest : MonoBehaviour
         if (isConnected)
         {
             BluetoothService.StopBluetoothConnection();
+            isConnected = false;
         }
-        Application.Quit();
     }
 }
